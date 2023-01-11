@@ -79,3 +79,53 @@ h6 {
 	font-size: inherit;
 	font-weight: 400;
 }
+
+.wrapper {
+	overflow: hidden;
+	max-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* ------------------------------------ */
+.content {
+}
+.hi {
+}
+.container {
+	flex: 1 1 auto;
+	max-width: 1181px;
+	margin: 0 auto;
+}
+.hi__row {
+	background-color: #445162;
+	display: flex;
+	justify-content: space-between;
+}
+.hi__body {
+	padding: 50px;
+}
+
+.hi__title {
+	text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+	font-size: 59px;
+	color: #fff;
+	margin: 0px 0px 41px 0px;
+}
+.hi__list {
+}
+.hi__list li {
+	background: url("/Img/icon/check\ icon.png") 0 8px no-repeat;
+	text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	line-height: 1.8;
+	color: #fff;
+}
+.hi__image {
+	min-width: 469px;
+	padding: 58px;
+}
