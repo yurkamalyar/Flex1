@@ -102,6 +102,9 @@ body {
 }
 
 .title {
+	font-size: 30px;
+	line-height: 1.2;
+	color: #445161;
 }
 
 /* ------------------------------------ */
@@ -127,7 +130,7 @@ body {
 .hi__list {
 }
 .hi__list li {
-	background: url("/Img/icon/check\ icon.png") 0 8px no-repeat;
+	background: url("/Img/icon/icon.png") 0 8px no-repeat;
 	text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
 	font-size: 20px;
 	line-height: 1.8;
@@ -142,19 +145,41 @@ body {
 /* ------WHAT------------------------------ */
 
 .what {
+	margin: 53px 0px 0px 0px;
 }
 
 .what__row {
+	display: flex;
 }
 
 .what__image {
+	max-width: 436px;
 }
 
 .what__body {
+	margin: 0px 0px 0px 38px;
 }
 
 .what__title {
 }
 
 .what__text {
+	margin: 36px 0px 0px 0px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+.what__text p {
+	padding: 0px 0px 36px 0px;
+}
+/* ---FOOTER----------------- */
+
+.footer {
+}
+.footer__row {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+.footer__text {
 }
