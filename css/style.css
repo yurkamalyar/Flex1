@@ -172,14 +172,141 @@ body {
 .what__text p {
 	padding: 0px 0px 36px 0px;
 }
+
+/* ---COLUMNS-------------- */
+
+.columns {
+	background-color: #f5f5f5;
+}
+
+.columns__title {
+	text-align: center;
+	padding: 48px 0px 30px 0px;
+}
+
+.columns__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -8px;
+}
+.columns__column {
+	flex: 0 1 50%;
+	padding: 0px 8px;
+	margin: 0px 0px 30px 0px;
+}
+.columns__item {
+}
+.item {
+}
+.item__row {
+	display: flex;
+}
+.item__image {
+}
+.item__body {
+	padding: 0px 0px 0px 15px;
+	flex: 1 1 auto;
+}
+.item__title {
+	margin: 0px 0px 15px 0px;
+	font-size: 24px;
+	line-height: 1.25;
+	color: #445161;
+}
+.item__text {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* ------VERTICAL--------- */
+
+.vertical {
+}
+
+.vertical__title {
+	padding: 49px 0px 29px 0px;
+	text-align: center;
+}
+
+.vertical__body {
+}
+.vertical__row {
+	display: flex;
+}
+.vertical__column {
+	display: flex;
+	border: solid 2px #445162;
+	margin: 0px 45px 0px 0px;
+	flex: 0 1 33.333%;
+}
+.vertical__item {
+	display: flex;
+	flex-direction: column;
+	background-color: #445162;
+	padding: 0px 0px 20px 0px;
+}
+.vertical__subtitle {
+	padding: 18px 0px 12px 0px;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1.25;
+	text-align: center;
+	color: #fff;
+}
+.vertical__label {
+	display: flex;
+	font-size: 40px;
+	line-height: 0.75;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	color: #445162;
+	height: 71px;
+}
+.vertical__text {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #fff;
+	flex: 1 1 auto;
+}
+.vertical__text p {
+	margin: 0px 0px 38px 0px;
+}
+.vertical__text p :last-child {
+	margin: 0px;
+}
+.vertical__btn {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	color: #445161;
+	border-radius: 5px;
+	background-color: #fff;
+	text-align: center;
+	margin: 0px 20px;
+}
+
 /* ---FOOTER----------------- */
 
 .footer {
+	margin: 50px 0px 0px 0px;
+	background-color: #f5f5f5;
 }
 .footer__row {
+	height: 65px;
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
+	align-items: center;
 }
 .footer__text {
+	height: 11px;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.3px;
+	text-align: center;
+	color: #445162;
 }
